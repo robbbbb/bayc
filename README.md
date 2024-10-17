@@ -15,7 +15,7 @@ There a two APIs: <br/>
 `/api/v1/transfer_events/` (get all the transfer events) <br/> 
 `/api/v1/transfer_events/{token_id}/` (get specific transfer event by token id)
 
-To run the application, follow these steps:
+## To run the application, follow these steps:
 1. Navigate to the root directory of your Django project. (bayc)
 2. Then run the following command to start the application: <br/>
   
