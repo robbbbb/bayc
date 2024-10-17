@@ -12,7 +12,7 @@ Create a Django application that connects to the Ethereum blockchain via Infura 
 
 ## For Api Documentation
 There a two APIs: <br/>
-`/api/v1/transfer_events/` (get all the transfer events) <br/> 
+`/api/v1/transfer_events/` <br/> (get all the transfer events)
 `/api/v1/transfer_events/{token_id}/` (get specific transfer event by token id)
 
 To run the application, follow these steps:
@@ -20,9 +20,7 @@ To run the application, follow these steps:
 2. Then run the following command to start the application: <br/>
   
     `pip install -r requirements.txt` <br/>
-     `python manage.py runserver` <br/><br/>
+     `python manage.py runserver` <br/>
 
-3. Open your browser and navigate to http://127.0.0.1:8000/ 
+3. Open your browser and navigate to http://127.0.0.1:8000/ <br/>
    You should see the landing page. <br/>
-   Click on `Listen for BAYC Transfer Events` and wait for the transfer event listener to start. <br/>
-   Click on `View API Documentation` and you should see the API documentation.
