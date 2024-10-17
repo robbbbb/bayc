@@ -19,7 +19,8 @@ There a two APIs: <br/>
 1. Navigate to the root directory of your Django project. (bayc)
 2. Then run the following command to start the application: <br/>
   
-    `pip install -r requirements.txt` <br/>
+    `pip install -r requirements.txt` or
+   (if there's an error) `pip install -r requirements.txt --user` <br/>
      `python manage.py runserver` <br/><br/>
 
 3. Open your browser and navigate to http://127.0.0.1:8000/ 
