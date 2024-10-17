@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BAYC NFT Transfer Event Listener</title>
+</head>
+<body>
+<div class="container">
+    <h1>Objective:</h1>
+    <p>
+        Create a Django application that connects to the Ethereum blockchain via Infura to
+        listen for and record transfer events of Bored Ape Yacht Club (BAYC) NFTs.
+    </p>
+   <a href="{% url 'transfer_events_view' %}"><button> Listen for BAYC Transfer Events</button> </a>
+   <a href="{% url 'schema_docs' %}"><button> View API Documentation</button></a>
+</div>
+<div>
+
+</div>
+</body>
+</html>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .container {
+        width: 800px;
+        margin: 0 auto;
+        border: 3px solid green;
+        padding: 20px;
+    }
+    a {
+        text-decoration: none;
+    }
+</style>

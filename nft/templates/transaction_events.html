@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BAYC NFT Transfer Event Listener</title>
+</head>
+<body>
+<div class="container">
+    <p>
+        Successfully listened to BAYC Transfer Events and Saved to Database
+    </p>
+   <a href="{% url 'schema_docs' %}"> <button> View API Documentation (Check all events and Select Transfer Event by Token Id)</button> </a>
+    <a href="{% url 'landing_page_view' %}">
+        <button> Back to Landing Page</button>
+    </a>
+</div>
+<div>
+
+</div>
+</body>
+</html>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .container {
+        width: 800px;
+        margin: 0 auto;
+        border: 3px solid green;
+        padding: 20px;
+    }
+</style>

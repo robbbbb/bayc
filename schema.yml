@@ -1,0 +1,45 @@
+openapi: 3.0.3
+info:
+  title: Bayc API Transfer Events Documentation
+  version: 1.0.0
+  description: OpenAPI description for Bored Ape Yacht Club (BAYC) NFT Transfer Events
+paths:
+  /api/v1/transfer_events/:
+    get:
+      operationId: api_v1_transfer_events_retrieve
+      tags:
+      - Transfer Events
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          description: No response body
+  /api/v1/transfer_events/{token_id}/:
+    get:
+      operationId: api_v1_transfer_events_retrieve_2
+      parameters:
+      - in: path
+        name: token_id
+        schema:
+          type: integer
+        required: true
+      tags:
+      - Transfer Events
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          description: No response body
+components:
+  securitySchemes:
+    basicAuth:
+      type: http
+      scheme: basic
+    cookieAuth:
+      type: apiKey
+      in: cookie
+      name: sessionid
